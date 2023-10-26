@@ -36,7 +36,6 @@ class board():
    
     def is_win_for(self,marker):
         '''runs all of the win checkers'''
-        print('hefadgfaddfadfajdsfl;adlfkadkflkggaysex')
         if self.is_win_d(marker) == True\
             or self.is_win_h(marker) == True\
                 or self.is_win_v(marker) == True:

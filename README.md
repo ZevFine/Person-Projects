@@ -1,2 +1,2 @@
 # Person-Projects
-Just some personalprojects that I have worked on 
+Just some personal projects that I have worked on 

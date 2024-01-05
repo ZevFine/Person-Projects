@@ -55,7 +55,7 @@ class Board:
                         self.board[i][col] = self.board[i+1][col]
                         self.board[i+1][col] = '    '
                     if self.board[i][col] == self.board[i+1][col] and self.board[i][col] != '    ':
-                        if self.merged[i][col] == False and self.merged[i+1][col == False]:
+                        if self.merged[i][col] == False and self.merged[i+1][col] == False:
                             self.board[i][col] = (4-len(str(int(self.board[i+1][col].strip())*2))) * ' ' + str(int(self.board[i+1][col].strip())*2)
                             self.board[i+1][col] = '    '
                             self.merged[i][col] = True
